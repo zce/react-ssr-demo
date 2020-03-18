@@ -24,7 +24,8 @@
   "homepage": "https://github.com/zce/react-ssr-demo#readme",
   "dependencies": {
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
