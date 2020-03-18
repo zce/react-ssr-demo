@@ -1,0 +1,41 @@
+{
+  "name": "react-ssr",
+  "version": "0.1.0",
+  "description": "react ssr demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/react-ssr-demo.git"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "zce",
+    "zce.me"
+  ],
+  "author": "zce <w@zce.me> (https://zce.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zce/react-ssr-demo/issues"
+  },
+  "homepage": "https://github.com/zce/react-ssr-demo#readme",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
+}
