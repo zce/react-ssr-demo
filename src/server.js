@@ -15,6 +15,7 @@ const htmlTemplate = inner => `
 </head>
 <body>
   <div id="root">${inner}</div>
+  <script src="/bundle.js"></script>
 </body>
 </html>
 `.trim()

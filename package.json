@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build:client": "webpack --config webpack.config.client.js",
-    "build:server": "webpack --config webpack.config.server.js"
+    "build:server": "webpack --config webpack.config.server.js",
+    "prestart": "npm run build:client && npm run build:server",
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
