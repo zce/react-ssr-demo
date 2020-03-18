@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'none',
-  entry: './src/index.js',
+  entry: './src/client.js',
   output: {
     filename: 'bundle.js'
   },
